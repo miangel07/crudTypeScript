@@ -53,7 +53,8 @@ export const Tabla = ({ data, handleEdit }: Props) => {
                             <td className="py-2 px-4 border text-center gap-3 flex">
 
                                 <Button type="submit" color={"bg-yellow-600"} onClick={() => handleEdit(items)} >Editar</Button>
-                                <Button type="submit" color={"bg-red-500"} onClick={() => hadleEliminar(items.id)} >Eliminar</Button>
+                                <Button type="submit" color={"bg-red-500"} onClick={() => hadleEliminar(items.id)} >Eliminar
+                                </Button>
                             </td>
                         </tr>
                     ))}

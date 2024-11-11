@@ -9,7 +9,7 @@ function App() {
     <>
       <section className="h-screen w-full" >
         <div className="w-full justify-center flex items-center ">
-          <h1 className="text-3xl font-bold   underline">
+          <h1 className="text-3xl font-bold  mt-4 underline">
             Crud Basico
           </h1>
         </div>
